@@ -2,9 +2,12 @@ import React from "react";
 import "./login/login.css";
 import "../pages/global.css";
 
-const Login = () => {
-  return (
-    <body>
+import React, { Component } from 'react'
+
+export default class Login extends Component {
+  render() {
+    return (
+      <body>
       <div className="container">
         <div className="login-block">
           <div className="login-title">Добро пожаловать</div>
@@ -16,7 +19,6 @@ const Login = () => {
         </div>
       </div>
     </body>
-  );
-};
-
-export default Login;
+    )
+  }
+}
