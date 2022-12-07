@@ -1,5 +1,5 @@
 import "./App.css";
-import Parma from "./components/Parma";
+import Parma from "./pages/Parma";
 
 function App() {
   return <div className="App">
